@@ -19,10 +19,6 @@
     padding: 0px;
  }
 
-
-
-
-
 body {
     background-color: lightgray;
     font-family: var(--fonte-padrao), sans-serif;         
@@ -103,9 +99,10 @@ main {
  
 main h1 {
           color: var(--cor4);
+          text-shadow: 3px 3px 10px 4px black; 
           padding-left: 10px;
           text-align: center;
-          text-shadow: 3px 3px 10px 4px black; 
+           
 }
 
 main h2 {
