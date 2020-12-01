@@ -3,23 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
-       font-family: 'andoid';
-       src: url('/fontes/idroid.otf') format('opentype');
+       font-family: 'Android';
+       src: url('../fontes/idroid.otf') format('opentype');
        font-weight: normal;
 }
-  
+
 :root {
 
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
     --cor3: #39b16fbb;
-    --cor4: #0d582f;
+    --cor4: #0d582f; 
     --cor5: #083a1d;
    
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'android', cursive;
+    --fonte-android: 'Android', cursive;
 } 
 
 * {
@@ -33,17 +33,15 @@ body {
 }
 
 header {
-    font-family: var(--fonte-destaque);
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     max-width: auto;
     max-height: 150px;
     text-align: center;
     padding: 30px;
-
 }
 
 header h1 {
-      font-family: ;
+      font-family: var(--fonte-destaque);
       color: white;
       font-size: 3em;  
       text-align: center;  
@@ -97,7 +95,6 @@ main {
     max-width: 1000px;
     margin: auto;
     margin-bottom: 8px;
-    font-family: Arial, Helvetica, sans-serif;
     height: 98%; 
     text-align: justify;
     border-radius: 10px;
@@ -105,16 +102,17 @@ main {
     }
  
 main h1 {
+          font-family: var(--fonte-android);      
           color: var(--cor4);
-          font-family: var(--font-android);
           text-shadow: 3px 3px 20px 10px black; 
           text-align: center;  
 }
 
 main h2 {
+    font-family: var(--fonte-android);
     background-image: linear-gradient( to right, var(--cor3), transparent);
     padding-left: 10px;     
-    font-family: var(--font-android);
+    
 }
 
 main p {
@@ -212,7 +210,7 @@ footer {
     padding: 20px;
     font-size: 1em;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao);
     font-weight: normal;
  }
  
