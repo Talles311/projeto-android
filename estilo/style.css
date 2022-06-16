@@ -57,6 +57,7 @@ header > p {
         margin: auto;
         padding-right: 10px;
         padding-left: 10px;
+        padding-bottom: 37px;
          
 }
 
@@ -174,25 +175,23 @@ div.video {
          margin: 0px -20px 30px -20px;
          padding: 20px;
          padding-bottom: 59%;
+         
          position: relative;
 }
 
-div.video >iframe {
+div.video > iframe {
                position: absolute;
                top: 5%;
                left: 5%;
 
                width: 90%;
                height: 90%;
-
-
-
 }
 
 
 aside {
       background-color: var(--cor1);
-      padding: 10px;
+      padding: 11px;
       border-radius: 10px;
       padding-top: 0px;
       padding-left: 0px;
@@ -204,7 +203,7 @@ aside > ul {
         list-style-position: inside;
         columns: 2;
         list-style-type: '\2714\00A0\00A0';
-        padding: 10px;
+        padding: 11px;
         padding-bottom: 15px;
 }
   
@@ -215,7 +214,13 @@ aside > h3 {
         padding: 10px;
         margin: 0px;
         color: var(--cor0);
-        
+
+}
+
+aside > p {
+          padding-left: 10px;
+          padding-right: 10px;
+          text-indent: 30px;
 
 }
 
